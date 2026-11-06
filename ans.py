@@ -18,7 +18,6 @@ import sklearn, sklearn.tree
 def estimate_gini_impurity(feature_values, threshold, labels, polarity): 
     determine_array = []
     for i in range (len(feature_values)):
-      polarity (feature_values[i],threshold)
       determine_array.append(polarity (feature_values[i],threshold))
     
     determine_array =numpy.array(determine_array)
